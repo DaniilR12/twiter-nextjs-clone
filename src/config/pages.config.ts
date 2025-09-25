@@ -1,0 +1,16 @@
+export const PAGES = {
+    HOME:'/',
+    EXPLORE:'/explore',
+    NOTIFICATIONS:'/notifications',
+    MESSAGES:'/messages',
+    GROK:'/grok',
+    BOOKMARKS:'/bookmarks',
+    COMMUNITIES:'/communities',
+    PREMIUM:'/premium',
+    VERIFIED_ORGS:'/verified-orgs',
+    PROFILE_FAKE:'/profile-fake',
+    SHOP:'/shop',
+    ISR:'/shop/isr',
+    SSG:'/shop/ssg',
+    PROFILE:(username:string)=>`/u/${username}`,
+}
