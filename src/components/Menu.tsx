@@ -31,7 +31,7 @@ export function Menu() {
         </Link>
         <Link
           className="flex gap-5 content-center  items-center w-full h-15 rounded-full hover:bg-white/10 p-3 transition-colors duration-200"
-          href={PAGES.EXPLORE}
+          href={PAGES.SHOP}
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -44,13 +44,13 @@ export function Menu() {
             <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
           </svg>
           <MenuItem
-            key="Explore"
+            key="Shop"
             nameItem={"Explore"}
             isActive={pathname === PAGES.EXPLORE}
           />
         </Link>
         <Link
-          className="flex gap-5 content-center  items-center w-full h-15 rounded-full hover:bg-white/10 p-3 transition-colors duration-200"
+          className="flex gap-5 text-gray-800 content-center  items-center w-full h-15 rounded-full p-3 cursor-auto"
           href={PAGES.NOTIFICATIONS}
         >
           <svg
@@ -70,7 +70,7 @@ export function Menu() {
           />
         </Link>
         <Link
-          className="flex gap-5 content-center  items-center w-full h-15 rounded-full hover:bg-white/10 p-3 transition-colors duration-200"
+          className="flex gap-5 text-gray-800 content-center  items-center w-full h-15 rounded-full p-3 cursor-auto"
           href={PAGES.MESSAGES}
         >
           <svg
@@ -89,7 +89,7 @@ export function Menu() {
             isActive={pathname === PAGES.MESSAGES}
           />
         </Link>
-        <Link className="flex gap-5 content-center  items-center w-full h-15 rounded-full hover:bg-white/10 p-3 transition-colors duration-200" href={PAGES.GROK}>
+        <Link className="flex gap-5 text-gray-800 content-center  items-center w-full h-15 rounded-full p-3 cursor-auto" href={PAGES.GROK}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="28"
@@ -108,7 +108,7 @@ export function Menu() {
           />
         </Link>
         <Link
-          className="flex gap-5 content-center  items-center w-full h-15 rounded-full hover:bg-white/10 p-3 transition-colors duration-200"
+          className="flex gap-5 text-gray-800 content-center  items-center w-full h-15 rounded-full p-3 cursor-auto"
           href={PAGES.BOOKMARKS}
         >
           <svg
@@ -128,7 +128,7 @@ export function Menu() {
           />
         </Link>
         <Link
-          className="flex gap-5 content-center  items-center w-full h-15 rounded-full hover:bg-white/10 p-3 transition-colors duration-200"
+          className="flex gap-5 text-gray-800 content-center  items-center w-full h-15 rounded-full p-3 cursor-auto"
           href={PAGES.COMMUNITIES}
         >
           <svg
@@ -149,7 +149,7 @@ export function Menu() {
           />
         </Link>
         <Link
-          className="flex gap-5 content-center  items-center w-full h-15 rounded-full hover:bg-white/10 p-3 transition-colors duration-200"
+          className="flex gap-5 text-gray-800 content-center  items-center w-full h-15 rounded-full p-3 cursor-auto"
           href={PAGES.PREMIUM}
         >
           <svg
@@ -169,7 +169,7 @@ export function Menu() {
           />
         </Link>
         <Link
-          className="flex gap-5 content-center  items-center w-full h-15 rounded-full hover:bg-white/10 p-3 transition-colors duration-200"
+          className="flex gap-5 text-gray-800 content-center  items-center w-full h-15 rounded-full p-3 cursor-auto"
           href={PAGES.VERIFIED_ORGS}
         >
           <svg
@@ -189,7 +189,7 @@ export function Menu() {
           />
         </Link>
         <Link
-          className="flex gap-5 content-center  items-center w-full h-15 rounded-full hover:bg-white/10 p-3 transition-colors duration-200"
+          className="flex gap-5 text-gray-800 content-center  items-center w-full h-15 rounded-full p-3 cursor-auto"
           href={PAGES.PROFILE_FAKE}
         >
           <svg
